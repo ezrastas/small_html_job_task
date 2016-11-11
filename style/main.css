@@ -150,6 +150,22 @@ body {
   width: 230px;
   height: 250px;
 }
+.row.map-form,
+.row.forma {
+  background-color: #ecf0f1;
+  color: #101010;
+}
+.row.forma > a.btn {
+  background-color: #16a086;
+  border-color: #16a086;
+  margin-right: 20px;
+}
+.row.forma > a.btn:hover {
+  background-color: #16a086;
+  border-color: #16a086;
+  color: #101010;
+  margin-right: 20px;
+}
 .icons-design1 {
   display: inline-block;
   vertical-align: middle;
