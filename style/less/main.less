@@ -8,6 +8,7 @@
 @header-metric: 40px;
 @text: #fff;
 @screen-md-min: 992px;
+@footer-color: #2d3e50;
 
 @jumo-button: #099b7a;
 @lead-button: #16a086;
@@ -33,6 +34,8 @@
 
 body{
   font-family:@font-stack;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -188,6 +191,7 @@ body{
 .row.map-form, .row.forma{
   background-color: #ecf0f1;
   color: @main_font_color;
+  padding-bottom: 25px;
 }
 .row.forma>a.btn{
   background-color:  @lead-button;
@@ -200,6 +204,28 @@ body{
   color:@main_font_color;
   margin-right: 20px;
 }
+.form-control {
+    height: 50px;
+  }
+#map-canvas{
+  height: 250px;
+
+}
+
+.panel-footer{
+  height: 80px;
+  background-color: @footer-color;
+  color: @back_color;
+}
+.footer-up{
+  background-color:  @lead-button;
+  border-color:  @lead-button;
+  color:@back_color;
+  masrgin-bottom: 30px;
+  margin-right: 50px;
+
+}
+
 
 //omg long long icons
 
