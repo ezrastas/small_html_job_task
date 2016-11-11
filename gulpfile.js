@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var minifyCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var concat = require('gulp-concat');
+var less = require('gulp-less');
 
 gulp.task('less', function () {
   gulp.src('style/less/main.less')
