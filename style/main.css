@@ -72,7 +72,7 @@ body {
   color: #444;
 }
 .jumbotron {
-  background: url(/img/party.jpg);
+  background: url(../img/party.jpg);
   background-size: cover;
   margin-top: 80px;
   height: 500px;
@@ -187,84 +187,37 @@ body {
   masrgin-bottom: 30px;
   margin-right: 50px;
 }
-.icons-design1 {
+[class*='icons-design'] {
   display: inline-block;
   vertical-align: middle;
-  height: 200px;
-  width: 200px;
+  height: 19%;
+  width: 17%;
   margin: 20px;
   line-height: 200px;
   border-radius: 100px;
+}
+.icons-design1 {
   background-color: #00aa9e;
 }
 .icons-design2 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #4fb492;
 }
 .icons-design3 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #d1d2d4;
 }
 .icons-design4 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #daf1f9;
 }
 .icons-design5 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #e6f2dc;
 }
 .icons-design6 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #f8aeab;
 }
 .icons-design7 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #00a99e;
 }
 .icons-design8 {
-  display: inline-block;
-  vertical-align: middle;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-  line-height: 200px;
-  border-radius: 100px;
   background-color: #ffebb6;
 }
 .icons-inside1 {
