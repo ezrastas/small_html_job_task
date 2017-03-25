@@ -1,5 +1,4 @@
 /node_modules/.bin
-/node_modules/bootstrap
 /node_modules/font-awesome
 /node_modules/gulp
 /node_modules/gulp-clean-css
